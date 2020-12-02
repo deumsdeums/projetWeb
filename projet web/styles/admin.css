@@ -1,0 +1,49 @@
+.grid-container{
+    display:grid;
+    grid-template-columns:1fr;
+    margin: 20px;
+    gap:20px;
+}
+.grid-item{
+    border:1px solid black;
+    text-align: center;
+    padding : 10px;
+    width: 100%;
+}
+.separator{
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+input[type="submit"]{
+    width:100%;
+    padding:10px;
+    margin:5px;
+
+}
+#adminButton{
+    background-color: #57ff94;
+    margin-top:10px;
+    margin-bottom:10px;
+
+}
+#adminButton:hover{
+    background-color:#30ff7c;
+    cursor : pointer;
+}
+#deleteButton{
+    background-color: #d65538;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+#deleteButton:hover{
+    background-color: #e85231;
+    cursor : pointer;
+}
+.news-deletereport a{
+    float:left;
+    color:#008000;
+}
+.news-deletereport a:hover{
+    color: #00b500;
+}

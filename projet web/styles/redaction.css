@@ -1,0 +1,32 @@
+
+#redac{
+    margin : 10px;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+input[name=submit]{
+    width:100%;
+    padding:10px;
+    background-color: #57ff94;
+    margin-top:10px;
+    margin-bottom:10px;
+
+}
+input[name=submit]:hover{
+    background-color:#30ff7c;
+    cursor : pointer;
+}
+input[name=cancel]{
+    width:100%;
+    padding:10px;
+    background-color: #d65538;
+    margin-top:10px;
+    margin-bottom:10px;
+
+}
+input[name=cancel]:hover{
+    background-color:#e85231;
+    cursor : pointer;
+}

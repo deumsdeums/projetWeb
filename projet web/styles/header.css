@@ -1,0 +1,38 @@
+#nav{
+  width: 100%;
+  margin:0px;
+  padding :25px 0px;
+  top:0;
+  display : flex;
+  overflow-x: auto;
+  background-color: #fff98c;
+
+}
+#nav ul{
+  list-style: none;
+}
+#nav li{
+  text-align: center;
+
+}
+#nav li a{
+  padding: 25px;
+  color:black;
+}
+#nav li a:hover{
+  background-color: #fff436;
+}
+.left, .center, .right {
+  display: flex;
+}
+.left {
+  flex-grow: 1;
+}
+.center {
+  flex-grow: 1;
+  justify-content: center;
+}
+.right {
+  flex-grow: 1;
+  justify-content: end;
+}
