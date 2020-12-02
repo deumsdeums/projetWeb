@@ -1,9 +1,9 @@
 <?php
     return array(
-        'host' =>'devbdd.iutmetz.univ-lorraine.fr',
+        'host' =>'',
         'port' => '3306',
         'dbname' =>'projetweb',
-        'username' =>'rossi62u_appli',
-        'password'=>'31905588'
+        'username' =>'',
+        'password'=>''
     );
 ?>
